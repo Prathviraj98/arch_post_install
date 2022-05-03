@@ -15,7 +15,9 @@ sudo pacman -Qtdq --noconfirm
 sudo pacman -Rns $(pacman -Qtdq) --noconfirm
 rm -rf .cache/*
 sudo journalctl --vacuum-time=2weeks 
-reboot
+sudo powertop
+sudo powertop --calibrate
+sudo powertop --auto-tune
 
 #config server list for dnscrypt-proxy
 
