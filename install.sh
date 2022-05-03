@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo pacman-mirrors --fasttrack
 sudo pacman -Syyu --noconfirm
-sudo pacman -S audacity gimp powertop tlp dconf-editor gnome-shell gnome-tweaks gnome-firmware chromium libreoffice-fresh gufw gparted telegram-desktop transmission-gtk vlc android-tools dnscrypt-proxy net-tools neofetch gcc code preload bluefish python-beautifulsoup4 rhythmbox timeshift --noconfirm
+sudo pacman -S audacity gimp powertop tlp dconf-editor match-gtk-theme gnome-shell gnome-tweaks maia-cursor-theme gnome-firmware kvantum kvantum-theme-matcha chromium gitkraken libreoffice-fresh gufw gparted telegram-desktop transmission-gtk vlc android-tools dnscrypt-proxy net-tools neofetch gcc code preload bluefish python-beautifulsoup4 rhythmbox timeshift --noconfirm
 sudo tlp start 
 systemctl start dnscrypt-proxy
 systemctl enable dnscrypt-proxy
